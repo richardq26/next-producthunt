@@ -1,9 +1,29 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import styled from "@emotion/styled";
+import React from "react";
+import Layout from "../components/layout/Layout";
 
-export default function Home() {
+const Home = () => {
   return (
-    <><h1>holaaa</h1></>
+    <div>
+      <Layout>
+        <h1>inicio</h1>
+      </Layout>
+    </div>
   )
 }
+
+export default Home
+
+
+
+// const Heading = styled.h1`
+//   color: red;
+// `;
+
+// export default function Home() {
+//   return (
+//     <>
+//       <Heading>holaaa</Heading>
+//     </>
+//   );
+// }
